@@ -38,7 +38,7 @@ def main
 	get_count_from_eaidem(count_table)
 	puts "get eaidem " + sprintf("%.4fs (%s)", Time.now - start_time, Time.now.strftime("%Y/%m/%d %H:%M:%S"))
 
-#	insert_data(count_table)
+	insert_data(count_table)
 
 end
 
